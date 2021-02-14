@@ -11,7 +11,7 @@ public class BaseTest {
 
     @BeforeSuite
     public void beforeSuiteSetup() {
-        System.setProperty("headless", "false");
+        System.setProperty("headless","false");
         String headlessBrowser = System.getProperty("headless");
 
         if("true".equals(headlessBrowser)) {

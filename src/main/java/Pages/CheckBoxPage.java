@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class CheckBoxPage {
+public class CheckBoxPage{
     private WebDriver driver;
     @FindBy(linkText = "Checkboxes")
     private WebElement checkBoxPage;
