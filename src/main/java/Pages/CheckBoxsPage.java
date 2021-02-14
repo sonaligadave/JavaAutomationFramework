@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class CheckBoxPage{
+public class CheckBoxsPage {
     private WebDriver driver;
     @FindBy(linkText = "Checkboxes")
     private WebElement checkBoxPage;
@@ -15,7 +15,7 @@ public class CheckBoxPage{
     @FindBy(css = "form#checkboxes > input:nth-of-type(2)")
     private WebElement checkboxe2;
 
-    public CheckBoxPage(WebDriver driver) {
+    public CheckBoxsPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

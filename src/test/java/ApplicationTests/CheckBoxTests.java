@@ -1,14 +1,14 @@
 package ApplicationTests;
 
-import Pages.CheckBoxPage;
+import Pages.CheckBoxsPage;
 import base.BaseTest;
 import org.testng.annotations.Test;
 
-public class CheckBoxTest extends BaseTest {
+public class CheckBoxTests extends BaseTest {
 
     @Test
     public void checkBoxTest() {
-        CheckBoxPage cp = new CheckBoxPage(getDriver());
+        CheckBoxsPage cp = new CheckBoxsPage(getDriver());
         cp.goToCheckBoxPage();
         cp.clickOnCheckBox1();
         cp.clickOnCheckBox1();

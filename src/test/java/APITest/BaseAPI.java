@@ -3,7 +3,7 @@ package APITest;
 import org.testng.annotations.Test;
 
 
-public class BaseApiTest {
+public class BaseAPI {
 
     @Test
     public void postCallTest() {
