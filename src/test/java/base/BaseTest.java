@@ -25,10 +25,10 @@ public class BaseTest {
         driver.get("https://the-internet.herokuapp.com/");
     }
 
-    @AfterSuite
-    public void tearDown() {
-        driver.quit();
-    }
+//    @AfterSuite
+//    public void tearDown() {
+//        driver.quit();
+//    }
 
     public WebDriver getDriver() {
         return driver;

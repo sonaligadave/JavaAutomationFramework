@@ -1,4 +1,5 @@
 APITest/BaseApiTest.class
+ApplicationTests/DropDownTest.class
 ApplicationTests/BasicAuthHandelTest.class
 base/BaseTest.class
 ApplicationTests/CheckBoxTest.class

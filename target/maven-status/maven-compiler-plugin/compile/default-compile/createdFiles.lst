@@ -1,3 +1,4 @@
 Basics/BasePage.class
 Pages/CheckBoxPage.class
 Pages/BasicAuthPage.class
+Pages/DropDownPage.class

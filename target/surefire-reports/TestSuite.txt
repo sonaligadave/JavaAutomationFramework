@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.733 sec <<< FAILURE!
+checkBoxTest(ApplicationTests.CheckBoxTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at Pages.CheckBoxPage.goToCheckBoxPage(CheckBoxPage.java:24)
+	at ApplicationTests.CheckBoxTest.checkBoxTest(CheckBoxTest.java:12)
+
