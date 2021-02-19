@@ -2,6 +2,7 @@ This is java automation framwork
 Useful for UI automation functionality using page objet model.
 
 All UI test https://github.com/sonaligadave/JavaAutomationFramework/tree/master/src/test/java/ApplicationTests 
+
 1.CheckBoxTest
 2.DropDownTest
 3.AlertTest
