@@ -1,6 +1,13 @@
 This is java automation framwork 
 Useful for UI automation functionality using page objet model.
 
+All UI test https://github.com/sonaligadave/JavaAutomationFramework/tree/master/src/test/java/ApplicationTests 
+1.CheckBoxTest
+2.DropDownTest
+3.AlertTest
+
+All API test 
+
 
 To run this this project
 1. Git clone  https://github.com/sonaligadave/JavaAutomationFramework.git
