@@ -17,3 +17,6 @@ To run this this project
   Note: if chrome driver is not launching you can refer this page to download the driver https://sites.google.com/a/chromium.org/chromedriver/ and put it in 
   webdriver_java/resources directory.
 4. Once all setup is done , you can click on the any test from this folder webdriver_java/src/test  
+
+
+Run test using command line - mvn clean test -DsuiteXmlFile=testng.xml  
