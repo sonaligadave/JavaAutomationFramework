@@ -1,4 +1,5 @@
 package Pages;
+import Basics.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -6,17 +7,17 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-public class DropDownPage {
+public class DropDownPage  extends BasePage {
 
-    private WebDriver driver;
+    //private WebDriver driver;
     private static final String path = "https://the-internet.herokuapp.com/dropdown";
     @FindBy(linkText = "Dropdown")
     WebElement dropdownLink;
     @FindBy(id = "dropdown")
     WebElement dropdown;
 
-    public DropDownPage(WebDriver driver) {
-        this.driver = driver;
+    public DropDownPage() {
+        //this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
