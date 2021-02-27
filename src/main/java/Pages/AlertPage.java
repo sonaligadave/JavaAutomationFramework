@@ -1,29 +1,30 @@
 package Pages;
 
+import Basics.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class AlertPage {
+public class AlertPage extends BasePage {
 
-    WebDriver driver;
+    //WebDriver driver;
     @FindBy(linkText = "JavaScript Alerts")
-    WebElement alertsLink;
+    private WebElement alertsLink;
     @FindBy(xpath = "//div[@id='content']//ul//button[.='Click for JS Alert']")
-    WebElement jsAlert;
+    private WebElement jsAlert;
     @FindBy(xpath = "//div[@id='content']//ul//button[.='Click for JS Confirm']")
-    WebElement jsConfirmButton;
+    private WebElement jsConfirmButton;
     @FindBy(xpath = "//div[@id='content']//ul//button[.='Click for JS Prompt']")
-    WebElement jsPromptButton;
+    private WebElement jsPromptButton;
     @FindBy(xpath = ".//p[@id='result']")
-    WebElement messageValidation;
+    private WebElement messageValidation;
 
     private final String message = "sending message";
 
-    public AlertPage(WebDriver driver) {
-        this.driver = driver;
+    public AlertPage() {
+       // this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 

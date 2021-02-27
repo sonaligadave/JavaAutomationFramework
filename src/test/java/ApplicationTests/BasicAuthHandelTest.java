@@ -1,11 +1,11 @@
 package ApplicationTests;
 
-import base.BaseTest;
+import Basics.BasePage;
+import util.BaseTest;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertEquals;
-
-public class BasicAuthHandelTest extends BaseTest {
+public class BasicAuthHandelTest extends BasePage implements BaseTest {
 
     private static final String userName = "admin";
     private static final String password = "admin";
@@ -13,5 +13,11 @@ public class BasicAuthHandelTest extends BaseTest {
     @Test(priority = 0)
     public void loginWithCredentials(){
 
+    }
+
+    @AfterTest
+    @Override
+    public void close() {
+        driver.quit();
     }
 }

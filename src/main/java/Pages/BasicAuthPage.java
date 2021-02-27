@@ -1,5 +1,7 @@
 package Pages;
 
-public class BasicAuthPage {
+import Basics.BasePage;
+
+public class BasicAuthPage  extends BasePage {
 
 }
