@@ -8,7 +8,7 @@ All UI test https://github.com/sonaligadave/JavaAutomationFramework/tree/master/
 3.AlertTest
 
 All API test 
-
+GraphQL API Test 
 
 To run this this project
 1. Git clone  https://github.com/sonaligadave/JavaAutomationFramework.git
